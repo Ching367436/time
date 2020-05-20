@@ -1,6 +1,7 @@
 body {
   background-color: #111111;
   color: #ffffff;
+  overflow: hidden;
 }
 
 #time {
@@ -9,5 +10,5 @@ body {
 }
 
 #second {
-  font-size: 10vw;
+  font-size: 12.5vw;
 }
