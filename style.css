@@ -1,0 +1,13 @@
+body {
+  background-color: #111111;
+  color: #ffffff;
+}
+
+#time {
+  font-size: 25vw;
+  text-align: center;
+}
+
+#second {
+  font-size: 10vw;
+}
