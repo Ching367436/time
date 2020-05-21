@@ -3,6 +3,7 @@ body {
   color: #ffffff;
   /* hide scroll bar */
   overflow: hidden;
+  user-select: none;
 }
 
 #time {
