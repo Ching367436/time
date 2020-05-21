@@ -66,7 +66,7 @@ function backgroundAnimation() {
 }
 
 function animationUtil(currentR = 0, currentG = 0, currentB = 0) {
-    let r = getRandomNumber(0, 210), g = getRandomNumber(0, 210), b = getRandomNumber(0, 210);
+    let r = getRandomNumber(0, 230), g = getRandomNumber(0, 230), b = getRandomNumber(0, 230);
     let rStep = (r - currentR) * step;
     let gStep = (g - currentG) * step;
     let bStep = (b - currentB) * step;
