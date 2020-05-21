@@ -1,5 +1,9 @@
 let t = setInterval(timer, 100);
+let suprise = Math.random() > 0.8;
 const m = document.querySelector('#time');
+if (suprise) {
+    document.body.style.background = "linear-gradient(-37deg, #f8226c, #36b4ff)";
+}
 m.addEventListener("dblclick", toggleFullScreen);
 function timer() {
     const date = new Date;
