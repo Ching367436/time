@@ -1,3 +1,4 @@
+'use-strict'
 const m = document.querySelector('#time');
 
 // a timer function
