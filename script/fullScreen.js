@@ -3,6 +3,8 @@
     Go into fullscreen mode when user double click the page.
 
 */
+'use-strict';
+
 document.body.addEventListener("dblclick", toggleFullScreen);
 
 function toggleFullScreen() {
