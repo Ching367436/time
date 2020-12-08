@@ -16,6 +16,9 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  
+  font-feature-settings: "tnum";
+  font-variant-numeric: tabular-nums;
 }
 
 #second {
